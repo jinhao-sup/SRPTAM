@@ -3,7 +3,6 @@ import logging
 
 _FORMAT = '%(asctime)s:%(levelname)s:%(name)s:%(message)s'
 
-""" 模型的日志器，区别于kcore_interactions数据处理的日志器 """
 class _LoggerHolder(object):
     """
     Logger singleton instance holder.
