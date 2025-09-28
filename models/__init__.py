@@ -1,6 +1,7 @@
 from utils.error_msg import Error
 from models.srtam import SRTAM
 
+# srtam是论文写作前暂定的模型名称
 _SUPPORTED_MODELS = {
     'srtam': SRTAM
 }
