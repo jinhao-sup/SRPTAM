@@ -5,7 +5,7 @@ def split_data(sorted_user_interactions):
     The last item is for test
     The second last item is for validation
     The remaining items are for train
-    :param sorted_user_interactions: dictionary, values are tuples (iid, timestamp)，字典格式是userid：元组列表[(itemid,时间)...]
+    :param sorted_user_interactions: dictionary, values are tuples (iid, timestamp)
     :return:
     """
     train_set = {}
@@ -21,5 +21,5 @@ def split_data(sorted_user_interactions):
             train_set[uid] = interactions[:-2]
             valid_set[uid] = [interactions[-2]]
             test_set[uid] = [interactions[-1]]
-    # 返回划分后的训练集，验证集，测试集，格式均为userid：元组列表[(itemid,时间)...]，只是验证集，测试集，每个user的列表只有一个元组
+    # 返回划分后的训练集，验证集，测试集，格式均为userid：元组列表[(itemid,时间)...]
     return train_set, valid_set, test_set
