@@ -3,7 +3,7 @@ This is our TensorFlow implementation of SRPTAM.
 Please cite our paper if you use the code~  :)  
 
 ## Model Train (ML1M for example)  
-`CUDA_VISIBLE_DEVICES=0 nohup python main.py train -p configs/ml1m.json`  
+```CUDA_VISIBLE_DEVICES=0 nohup python main.py train -p configs/ml1m.json```  
 
 ## Model Test (ML1M for example)  
 `CUDA_VISIBLE_DEVICES=0 python main.py eval -p configs/ml1m.json`  
