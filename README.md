@@ -1,6 +1,7 @@
 # SRPTAM
 This is our TensorFlow implementation of SRPTAM.  
 Please cite our paper if you use the code~  :)  
+If you find this repository helpful, please support us by starring ⭐️ the project.  
 
 ## Model Training  
 ```bash
@@ -58,5 +59,11 @@ NDCG@5: 0.57061 +/- 0.00254
 HR@5: 0.72383 +/- 0.00201  
 MAP@5: 0.51947 +/- 0.00283  
 
-
-
+## Datasets  
+We provide the complete preprocessing code for all datasets used in our experiments.  
+The offical raw dataset files can be accessed from the following links:  
+[MovieLens-1M](https://grouplens.org/datasets/movielens/1m/)  
+[Amazon Book](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)  
+[Amazon Beauty](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)  
+[Last.FM-1K](https://nijianmo.github.io/amazon/index.html)  
+[Amazon Movies and TV](http://ocelma.net/MusicRecommendationDataset/lastfm-1K.html)  
