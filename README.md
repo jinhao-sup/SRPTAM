@@ -3,10 +3,13 @@ This is our TensorFlow implementation of SRPTAM.
 Please cite our paper if you use the code~  :)  
 
 ## Model Training  
-```CUDA_VISIBLE_DEVICES=0 nohup python main.py train -p configs/ml1m.json```  
+```bash
+CUDA_VISIBLE_DEVICES=0 nohup python main.py train -p configs/ml1m.json
+```  
 
 ## Model Testing  
-```CUDA_VISIBLE_DEVICES=0 python main.py eval -p configs/ml1m.json```  
+```CUDA_VISIBLE_DEVICES=0 python main.py eval -p configs/ml1m.json```
+
 ###  Model Test/eval log (ML1M for example)  
 2025-09-22 16:34:49.762789: I tensorflow/core/util/util.cc:169] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.  
 2025-09-22 16:34:51,048:INFO:srtam:exp/model/ml1m_10ucore_5icore/samples_step100/nepoch100/srtam_lr0.001_batch512_dim64_seqlen50_l2emb0.0_nblocks2_nheads2_dropout0.3_tempo-dim16-linspace8_residual-add_glob0.3_l2u0.0_l2i0.0_test_version3.2.1  
