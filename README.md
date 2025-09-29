@@ -1,6 +1,7 @@
 # SRPTAM
 This is our TensorFlow implementation of SRPTAM.  
 Please cite our paper if you use the code~  :)  
+srtam is our tentative model name used before the completion of the paper.  
 
 ## Model Training  
 ```bash
@@ -30,23 +31,23 @@ Instructions for updating: Use `tf.cast` instead.
 2025-09-22 16:34:57,047:INFO:srtam:EVALUATION for #1 COHORT  
 tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.  
 2025-09-22 16:34:59.048512: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8101  
-Evaluating...: 100%|█████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:04<00:00, 1.82it/s]  
+Evaluating...: 100%|███████████████████████████████████████| 9/9 [00:04<00:00, 1.82it/s]  
 2025-09-22 16:35:02,034:INFO:srtam:Number of bad results: 0  
 2025-09-22 16:35:02,036:INFO:srtam:Step #1,NDCG@10 0.60422 ,HR@10 0.82422 ,MAP@10 0.53433 ,NDCG@5 0.57206 ,HR@5 0.72483 ,MAP@5 0.52104  
 2025-09-22 16:35:02,036:INFO:srtam:EVALUATION for #2 COHORT  
-Evaluating...: 100%|█████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00, 3.74it/s]  
+Evaluating...: 100%|███████████████████████████████████████| 9/9 [00:02<00:00, 3.74it/s]  
 2025-09-22 16:35:04,475:INFO:srtam:Number of bad results: 0  
 2025-09-22 16:35:04,476:INFO:srtam:Step #2,NDCG@10 0.60811 ,HR@10 0.82964 ,MAP@10 0.53780 ,NDCG@5 0.57488 ,HR@5 0.72700 ,MAP@5 0.52407  
 2025-09-22 16:35:04,476:INFO:srtam:EVALUATION for #3 COHORT  
-Evaluating...: 100%|█████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00, 3.80it/s]  
+Evaluating...: 100%|███████████████████████████████████████| 9/9 [00:02<00:00, 3.80it/s]  
 2025-09-22 16:35:06,883:INFO:srtam:Number of bad results: 0  
 2025-09-22 16:35:06,885:INFO:srtam:Step #3,NDCG@10 0.60094 ,HR@10 0.82422 ,MAP@10 0.52999 ,NDCG@5 0.56831 ,HR@5 0.72374 ,MAP@5 0.51644  
 2025-09-22 16:35:06,885:INFO:srtam:EVALUATION for #4 COHORT  
-Evaluating...: 100%|█████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00, 3.82it/s]  
+Evaluating...: 100%|███████████████████████████████████████| 9/9 [00:02<00:00, 3.82it/s]  
 2025-09-22 16:35:09,274:INFO:srtam:Number of bad results: 0  
 2025-09-22 16:35:09,276:INFO:srtam:Step #4,NDCG@10 0.60215 ,HR@10 0.82096 ,MAP@10 0.53258 ,NDCG@5 0.56956 ,HR@5 0.72114 ,MAP@5 0.51894  
 2025-09-22 16:35:09,276:INFO:srtam:EVALUATION for #5 COHORT  
-Evaluating...: 100%|█████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:02<00:00, 3.84it/s]  
+Evaluating...: 100%|███████████████████████████████████████| 9/9 [00:02<00:00, 3.84it/s]  
 2025-09-22 16:35:11,649:INFO:srtam:Number of bad results: 0  
 2025-09-22 16:35:11,650:INFO:srtam:Step #5,NDCG@10 0.60180 ,HR@10 0.82552 ,MAP@10 0.53080 ,NDCG@5 0.56827 ,HR@5 0.72244 ,MAP@5 0.51685  
 2025-09-22 16:35:11,651:INFO:srtam:RESULTS:  
