@@ -43,7 +43,7 @@ def entrypoint(params):
         scores = []
         batch_size = training_params['batch_size']
         num_scored_users = params['eval'].get('n_users')
-        random_seeds = params['eval'].get('random_seeds')  # json用于评估的随机种子列表
+        random_seeds = params['eval'].get('random_seeds')  # 用于评估的随机种子列表
 
         seqlen = model_params['params'].get('seqlen', 50)
 
